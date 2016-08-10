@@ -1,0 +1,72 @@
+/* light theme */
+body { 
+  background:   url(../images/bb.jpg);
+
+}
+
+h2, h6 { 
+  color: #07E5F9;}
+
+#site_content { 
+  background: #FEFEFC;}
+
+#left_content ul li { 
+  background: url(../images/light_bullet.png); no-repeat left center;}
+
+nav, footer {
+  background:url(../images/bg.jpg);  /* Show a solid color for older browsers */
+  background: -moz-linear-gradient(#fff, #ddd);
+  background: -o-linear-gradient(#fff, #ddd);
+   
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  border: 1px solid #eee;}
+
+footer, footer a:hover { 
+  color: rgba(254,191,4,1);
+  text-shadow: 1px 1px #FFF;}
+
+#slideshow-caption, #slideshow-caption p {
+  color: #FFF;
+  background: #151515;}
+ 
+.form_settings .submit { 
+  background: #444;
+  text-shadow: 1px 1px #000;
+  color: #FFF;}
+
+.form_settings input, .form_settings textarea, .form_settings select { 
+  border-color: #777;}
+
+#blog_container h4.select {
+  /*background: url(../images/bg.jpg) no-repeat right top;*/
+ background-size: 500%;
+}
+
+.blog h3,  a:hover {
+  color: #111;}
+  
+
+
+#blog_text {
+  background: #F1F1E7;
+  text-shadow: 1px 1px #FFF;
+  color: rgba( 16,140,140,1);
+}
+
+#logo a,#left_content a{
+  color: rgba(0,158,195,1);
+  text-decoration: none;
+}
+
+
+ footer a,  ul#nav li a:hover, ul#nav ul li a:hover, ul#nav ul li a:focus,ul#nav li.selected a, 
+  a:hover { 
+  color:  white;
+
+ }
+
+  
+
+}
